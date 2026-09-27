@@ -1,0 +1,9 @@
+structure,n,operations,avg_time_ns,comparisons,theoretical_complexity
+DynamicArray,100,1000,308480,74653,O(n) per contains
+LinkedList,100,1000,298320,74653,O(n) per contains
+DynamicArray,1000,1000,2146340,743898,O(n) per contains
+LinkedList,1000,1000,1638560,743898,O(n) per contains
+DynamicArray,10000,1000,4412340,7494530,O(n) per contains
+LinkedList,10000,1000,8036160,7494530,O(n) per contains
+DynamicArray,100000,1000,39770640,74538277,O(n) per contains
+LinkedList,100000,1000,157904480,74538277,O(n) per contains

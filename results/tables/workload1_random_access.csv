@@ -1,0 +1,9 @@
+structure,n,operations,avg_time_ns,accesses,theoretical_complexity
+DynamicArray,100,10000,695580,10000,Theta(1) per get
+LinkedList,100,10000,1261500,502775,Theta(n) average/worst per get
+DynamicArray,1000,10000,370780,10000,Theta(1) per get
+LinkedList,1000,10000,6048800,4931245,Theta(n) average/worst per get
+DynamicArray,10000,10000,96720,10000,Theta(1) per get
+LinkedList,10000,10000,52027100,50231155,Theta(n) average/worst per get
+DynamicArray,100000,10000,66060,10000,Theta(1) per get
+LinkedList,100000,10000,684356180,495770514,Theta(n) average/worst per get
